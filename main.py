@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 def inicio():
-    return {"mensaje": "Hola mundo desde la nube 🚀"}
+    return {"mensaje": "Hola mundo desde la nube"}
